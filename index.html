@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synchro Electronics Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(32, 96, 192);
+            margin: 0;
+        }
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+        .login-container img {
+            max-width: 100%;
+        }
+        .login-container h1 {
+            font-size: 24px;
+            color: #f06c6c;
+            margin-bottom: 20px;
+        }
+        .login-container form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login-container button:hover {
+            background-color: #45a049;
+        }
+        .login-container a {
+            color: #007bff;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <img src="image/logo.png" alt="Synchro Electronics Logo">
+         <h1><u>Synchro Electronics</h1> </u>
+        <form> 
+            <label for="login-id" required>Login ID:</label>
+            <input type="text" id="login-id" name="login-id" value="" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" value="" required>
+            <button type="submit" formaction="product/product1.html">Login</button>
+        </form> <br>
+        <a href="n_account/n_acc.html">Create New Profile</a> <br> <hr>
+         <a href="f_password/forgot_p.html" >Forgot Password</a>
+    </div>
+
+</body>
+</html>
